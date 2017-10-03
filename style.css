@@ -33,17 +33,16 @@ li{
 }
 
 /* This is my ... */
+#mepic{
+	width: 100%;
+	align-items: center;
+}
+
 .me{
 	width: 300px;
 	height: auto;
 	align-items: center;
 	margin: 10px 10px 10px 10px;
-}
-
-
-#mepic{
-	width: 100%;
-	align-items: center;
 }
 
 h1{
