@@ -37,6 +37,7 @@ li{
 	width: 300px;
 	height: auto;
 	align-items: center;
+	margin: 10px 10px 10px 10px;
 }
 
 h1{
@@ -81,4 +82,5 @@ a:visited{
 #mepic{
 	width: 100%;
 	text-align: center;
+
 }
