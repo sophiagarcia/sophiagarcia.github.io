@@ -75,3 +75,8 @@ a:visited{
 	width: 100%;
 	text-align: center;
 }
+
+iframe{
+	width: 35%;
+	height: auto;
+}
