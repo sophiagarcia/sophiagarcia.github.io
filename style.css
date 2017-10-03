@@ -40,6 +40,12 @@ li{
 	margin: 10px 10px 10px 10px;
 }
 
+
+#mepic{
+	width: 100%;
+	align-items: center;
+}
+
 h1{
 	font-family: 'Racing Sans One', cursive;
 	font-size: 200%;
@@ -79,7 +85,3 @@ a:visited{
 	transition: all 1s;
 }
 
-#mepic{
-	width: 100%;
-	align-items: center;
-}
