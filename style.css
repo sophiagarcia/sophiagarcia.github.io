@@ -33,12 +33,7 @@ li{
 }
 
 /* This is my ... */
-.me{
-	width: 100%;
-	height: auto;
-	align-items: center;
-	margin: 10px 10px 10px 10px;
-}
+
 
 h1{
 	font-family: 'Racing Sans One', cursive;
@@ -79,4 +74,9 @@ a:visited{
 	transition: all 1s;
 }
 
-
+.me{
+	width: 100%;
+	height: auto;
+	align-items: center;
+	margin: 10px 10px 10px 10px;
+}
