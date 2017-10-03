@@ -55,12 +55,16 @@ h1{
 	margin: 20px 10px 20px 10px;
 }
 
+h2{
+	text-align: center;
+}
+
 h3{
 	border: 10px;
 	text-align: center;
 	font-family: 'Timmana', sans-serif;
 	color: #4277bc;
-	padding: 10px 50px 10px 50px;
+	padding: 10px 10px 10px 10px;
 	margin: 5px;
 	background-color: #f2f2bc;
 }
