@@ -34,7 +34,7 @@ li{
 
 /* This is my ... */
 .me{
-	width: 300px;
+	width: 100%;
 	height: auto;
 	align-items: center;
 	margin: 10px 10px 10px 10px;
@@ -79,8 +79,4 @@ a:visited{
 	transition: all 1s;
 }
 
-#mepic{
-	width: 100%;
-	text-align: center;
 
-}
