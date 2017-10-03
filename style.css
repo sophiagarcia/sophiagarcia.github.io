@@ -47,11 +47,19 @@ h1{
 	margin: 10px 10px 10px 10px;
 }
 
-h2{
+.informationlinks{
+	font-family: 'Racing Sans One', cursive;
+	font-size: 100%;
+	color: #ffceeb;
+	text-align: center;
+	margin: 20px 10px 20px 10px;
+}
+
+h3{
 	border: 10px;
 	text-align: center;
 	font-family: 'Timmana', sans-serif;
-	color:#a09f9f;
+	color: #4277bc;
 	padding: 50px 10px 50px 10px;
 	margin: 5px;
 	background-color: #f2f2bc;
@@ -62,12 +70,12 @@ a{
 }
 
 a:hover{
-	color: #ffceeb;
+	color: #8ce0ff;
 	transition: all 1s;
 }
 
 a:visited{
-	color: #8ce0ff;
+	color: #ffceeb;
 	transition: all 1s;
 }
 
