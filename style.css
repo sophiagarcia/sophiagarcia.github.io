@@ -1,91 +1,39 @@
-body{
+/*html {
+    background-image: url("homepagebackground.JPG");
+    background-repeat: repeat-x;
+    width: 100%;
+	height: auto;
+	-webkit-transform: rotate(15deg);
+	position: absolute;
+	z-index: -1;
+	left: 0;
+}*/
+
+.background{
+	width: 100%;
+	height: auto;
+	-webkit-transform: rotate(90deg);
+	/*position: absolute;*/
+	z-index: -1;
+	left: 0;
+	position: fixed
+	/*background-repeat: repeat-x;*/
+}
+
+.container{
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	text-align: center;
 }
 
-.background{
-	width: 100%;
-	height: auto;
-	-webkit-transform: rotate(90deg);
-	position: absolute;
-	z-index: -1;
-	left: 0;
-}
-
-p{
-	text-align: center;
-	font-family: 'Timmana', sans-serif;
-	color:#ffceeb;
-	display: center;
-	margin-left: 200px;
-	margin-right: 200px;
-	padding: 20px 10px 20px 10px;
-}
-
-li{
-	text-align: center;
-	font-family: 'Timmana', sans-serif;
-	color:#ffceeb;
-	margin: 10px;
-	display: inline;
-}
-
-/* This is my ... */
-#mepic{
-	width: 100%;
-	align-items: center;
-}
-
-.me{
-	width: 300px;
-	height: auto;
-	margin-top: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-bottom: 20px;
-	align-items: center;
-}
-
-h1{
+.title{
 	font-family: 'Racing Sans One', cursive;
 	font-size: 200%;
 	color: #ffceeb;
 	text-align: center;
 	margin: 10px 10px 10px 10px;
-}
-
-ul{
-	font-family: 'Racing Sans One', cursive;
-	font-size: 100%;
-	color: #ffceeb;
-	padding: 10px 10px 10px 10px;
-	margin: 10px 10px 10px 10px;
-	text-align: center;
-	list-style: none;
-}
-
-h3{
-	text-align: center;
-	font-family: 'Timmana', sans-serif;
-	color: #4277bc;
-	padding: 10px 10px 10px 10px;
-	background-color: #f2f2bc;
-}
-
-a{
 	text-decoration: none;
-}
-
-a:hover{
-	color: #8ce0ff;
-	transition: all 1s;
-}
-
-a:visited{
-	color: #ffceeb;
-	transition: all 1s;
 }
 
 .personalinfo{
@@ -94,5 +42,136 @@ a:visited{
 	color: #ffceeb;
 	text-align: center;
 	margin: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+
+.navbar ul{
+	font-family: 'Racing Sans One', cursive;
+	font-size: 100%;
+	color: #ffceeb;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+}
+
+.navbar li{
+	text-align: center;
+	font-family: 'Timmana', sans-serif;
+	color:#ffceeb;
+	margin: 10px;
+	display: inline;
+	text-decoration: none;
+}
+
+.bio{
+	/*text-align: center;*/
+	font-family: 'Timmana', sans-serif;
+	color: #ffceeb;
+	/*display: center;*/
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 20px 10px 20px 10px;
+	justify-content: left;
+	/*background-color: #ffceeb;
+	opacity: 25%;*/
+}
+
+#mepic{
+	width: 100%;
+	align-items: center;
+}
+
+.responsive-img{
+	width: 25%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+
+}
+
+/*.title a:visited{
+	color: #fceda9;
+	transition: all 1s;
+	text-decoration: none;
+}
+
+.personalinfo a:visited{
+	color: #fceda9;
+	transition: all 1s;
+	text-decoration: none;
+}
+
+.navbar li:visited{
+	color: #fceda9;
+	transition: all 1s;
+	text-decoration: none;
+}*/
+
+/*.title a:visited{
+	background-color: #ffceeb;
+}
+
+.personalinfo a:visited{
+	background-color: #ffceeb;
+}
+
+.navbar li:visited{
+	background-color: #ffceeb;
+}*/
+
+.title a:hover{
+	color: #bc0f4b;
+	transition: all 1s;
+	text-decoration: none;
+}
+
+.personalinfo a:hover{
+	color: #bc0f4b;
+	transition: all 1s;
+}
+
+.navbar li:hover{
+	color: #bc0f4b;
+	transition: all 1s;
+}
+
+.personalinfo a:active{
+    color: white;
+}
+
+.navbar li:active{
+    color: white;
+}
+
+a:link{
+	text-decoration: none;
+	color: #ffceeb;
+
+}
+
+@media screen and (max-width: 400px){
+	.container-fluid{
+		font-size: 100%;
+		justify-content: left;
+	}
 }
 
