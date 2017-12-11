@@ -1,0 +1,126 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	font-family: 'Lato', sans-serif;
+}
+
+b{
+	color: #065119;
+	size: 100px;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+blockquote{
+	size: 80px;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.article{
+	color: black;
+	font-family: 'Lato', sans-serif;
+	line-height: 45px;
+}
+
+.grey{
+	opacity: 150%;
+}
+
+.parallax-container{
+	width: 100%;
+	height: 500px;
+}
+
+.responsive-img{
+	width: 30%;
+	height: auto;
+}
+
+.articletitle{
+	font-size: 65px;
+	color: #065119;
+	font-family: 'Archivo Black', sans-serif;
+	text-align: center;
+}
+
+.lastquote{
+	font-size: 80px;
+	color: #065119;
+	font-family: 'Archivo Black', sans-serif;
+	text-align: center;
+}
+
+.guardian{
+	font-size: 15px;
+	color: #065119;
+	font-family: 'Archivo Black', sans-serif;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.carousel{
+	padding-left: 400%;
+}
+
+p .fampic{
+	padding-left: 22%;
+
+}
+
+section .name{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #065119;
+}
+
+section .date{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #065119;
+}
+
+section .description{
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: #065119;
+}
+
+section .byline{
+	/*padding: 10px 0 35px;
+	color: #065119;
+	font-family: 'Lato', sans-serif;*/
+	line-height: 50px;
+}
+
+@media only screen and (max-width: 550px) {
+    .articletitle{
+    	font-size: 45px;
+		color: #065119;
+		font-family: 'Archivo Black', sans-serif;
+		text-align: left;
+    }
+
+    .carousel a{
+    	size: 200%;
+    }
+
+    p .fampic{
+    	padding-left: 0;
+    }
+
+    .guardian{
+	font-size: 15px;
+	color: #065119;
+	font-family: 'Archivo Black', sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+	}
+
+   .parallax-container2{
+      height: 50%;
+    }
+}
